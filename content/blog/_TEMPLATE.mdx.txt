@@ -1,0 +1,35 @@
+---
+title: "Your Post Title Here"
+excerpt: "One or two sentences that summarize the post. Shows in cards and meta description."
+date: "2026-07-31"
+# updatedDate: "2026-08-15"   # optional — uncomment when you revise
+category: "Deep Work"          # must match one in src/lib/site.ts → categories
+tags: ["focus", "habits"]      # lowercase; these auto-create /blog/tag/<tag> pages
+author: "Your Name"
+cover: "📝"                     # emoji, or a path like "/images/blog/my-cover.jpg"
+featured: false                # true shows it in the homepage "Featured" row
+draft: true                    # true hides it in production; set false to publish
+# canonicalURL: "https://..."  # optional — only if republished from elsewhere
+# ogImage: "/images/og/my-post.png"  # optional per-post social image
+# faq:                         # optional — renders an FAQ block + FAQ schema
+#   - q: "A common question?"
+#     a: "The answer."
+---
+
+## Start with an H2
+
+Write your intro paragraph here. The first `##` heading and every `##` / `###`
+below it are picked up automatically for the table of contents and reading-time.
+
+### An H3 subsection
+
+Body text supports **bold**, _italics_, [links](/blog), lists, and `code`.
+
+- Point one
+- Point two
+
+## Another section
+
+Keep sections scannable. When you're happy, set `draft: false` in the frontmatter
+and the post goes live at `/blog/your-file-name` (the filename becomes the slug
+unless you add a `slug:` field).
